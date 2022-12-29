@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Document</title>
+ 
+ <link rel="stylesheet" type="text/css" href="./site.css" />
+ <link rel="shortcut icon" href="images/Hedwig.jpg" type="image/jpg">
+</head>
+ 
+<body class="background" background="images/Background.jpg">
+ 
+ <div id="quizContainer">
+ 
+   <h1>Which <em>Service co-curricular activity</em> should you do?</h1>
+ 
+   <button id="takeAgain" style="display: none; float: right;" onclick="window.location.reload()">Take Again</button>
+ 
+   <div id="quizZone">
+ 
+     <p>Click <strong>Start Quiz</strong> to find out!</p>
+ 
+     <button id="quizBtn" onclick="startQuiz()">Start Quiz</button>
+ 
+   </div>
+ 
+   <!-- Comments in HTML look like this -->
+   <div>
+ 
+     <!--
+               HTML comments can span multiple lines.
+               The <div> around this section^^ isn't necessary.
+               Feel free to delete it!
+               Don't forget to delete the closing tag!
+ 
+               The results below are hidden by CSS when the page loads.
+               When the quiz is finished, JavaScript will make the correct result visible.
+           -->
+   <!-- 3 categories: direct (direct service), current(global issues), school(stuco) -->
+     <div id="answer-Direct" class="answer Direct hide">
+       <h4>You should join a club that directly helps the community!</h4>
+       <p>
+         <img src="images/Harry.jpg" />
+                   Clubs such as Red Cross will be a good fit for you!
+       </p>
+     </div>
+ 
+     <div id="answer-Current" class="answer Current hide">
+       <h4>You should join clubs that deal with current global issues!</h4>
+       <p>
+         <img src="images/Hermione.jpg" />
+                   Clubs such as 50 50, ACT and CSP will be a good fit for you! 
+       </p>
+     </div>
+ 
+     <div id="answer-School" class="answer School hide">
+       <h4>You should joins clubs that help the school community!</h4>
+       <p>
+         <img src="images/Ron.jpg" />
+                   Clubs such as StuCo and MUN are a good fit for you!
+       </p>
+     </div>
+ 
+   </div>
+ 
+ </div>
+ 
+ <script src="./app.js"></script>
+</body>
+ 
+</html>
