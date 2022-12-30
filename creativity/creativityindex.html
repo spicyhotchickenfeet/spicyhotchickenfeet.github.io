@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Document</title>
+ 
+ <link rel="stylesheet" type="text/css" href="creativityart.css" />
+ <link rel="shortcut icon" href="images/Hedwig.jpg" type="image/jpg">
+</head>
+ 
+<body class="background" background="images/Background.jpg">
+ 
+ <div id="quizContainer">
+ 
+   <h1><center>Which <strong>Art acitvity</strong> is best for you?</h1>
+ 
+  
+   <div id="quizZone">
+ 
+     <p><center>Click <strong>Start Quiz</strong> to find out!</p>
+ 
+     <button id="quizBtn" onclick="startQuiz()">Start Quiz</button>
+ 
+   </div>
+ 
+   <!-- Comments in HTML look like this -->
+   <div>
+ 
+     <!--
+              HTML comments can span multiple lines.
+              The <div> around this section^^ isn't necessary.
+              Feel free to delete it!
+              Don't forget to delete the closing tag!
+              The results below are hidden by CSS when the page loads.
+              When the quiz is finished, JavaScript will make the correct result visible.
+          -->
+     <div id="answer-Visual" class="answer Visual hide">
+       <h4>You should do visual arts!</h4>
+       <p>
+         Clubs such as ISS makeover are focused on visual art such as painting and drawing!
+       </p>
+     </div>
+ 
+     <div id="answer-Tech" class="answer Tech hide">
+       <h4>You should join a technology based activity!</h4>
+       <p>
+         Activities like Media crew would be a good fit for you!
+       </p>
+     </div>
+ 
+     <div id="answer-Music" class="answer Music hide">
+       <h4>You are interested in music and drama!</h4>
+       <p>
+         You should join the high school musical, band and choir, and other music focused activities!
+       </p>
+     </div>
+       <button id="takeAgain" style="display: none;" onclick="window.location.reload()"><center>Take Again</center></button>
+   </div>
+ 
+ </div>
+ 
+ <script src="creativityscript.js"></script>
+</body>
+ 
+</html>
