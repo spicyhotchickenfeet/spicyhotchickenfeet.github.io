@@ -1,5 +1,5 @@
 body {
-  font-family: "Verdana", sans-serif;
+  font-family: "Lato", sans-serif
   /* background: #740001; */
   background-size: 100%;
 }
@@ -20,15 +20,18 @@ body {
  
 .quizOption {
   cursor: pointer;
-  margin: 5px;
-  padding: 3px;
-  border: 2px solid #272727;
-  color: #272727
- 
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block 
 }
+
 .quizOption:hover {
-  color: #fff;
-  background: #233688;
+  background-color: #eee;
 }
 .answer {
   border: 2px solid #ccc;
