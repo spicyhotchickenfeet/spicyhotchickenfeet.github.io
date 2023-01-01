@@ -12,10 +12,10 @@ body {
   background:#f6f6f6;
 }
 
-.mainimg {
-  width: 60%;
-  height: auto;
-}  
+.center {
+  margin: auto;
+  width: 75%;
+}
  
 .quizOption {
   cursor: pointer;
