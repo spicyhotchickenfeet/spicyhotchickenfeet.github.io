@@ -12,7 +12,7 @@ body {
   background:#f6f6f6;
 }
 
-#mainimg {
+.mainimg {
   width: 60%;
   height: auto;
 }  
