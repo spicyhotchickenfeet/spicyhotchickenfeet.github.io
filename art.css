@@ -11,6 +11,11 @@ body {
   padding: 15px;
   background:#f6f6f6;
 }
+
+#mainimg {
+  width: 60%;
+  height: auto;
+}  
  
 .quizOption {
   cursor: pointer;
