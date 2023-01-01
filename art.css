@@ -4,18 +4,12 @@ body {
   background-size: 100%;
 }
 #quizContainer {
-  border-width: 5px;
-  border-style: solid;
-  border-color: #f23832;
-  padding: 15px;
-  background: #cecece;
-  color: #233688;
-  min-width: 400px;
-  max-width: 800px;
-  /* causes this element to float in the middle of its parent */
+  border: 5px solid #ddd;
+  width: 75%;
   margin: auto;
-  /* ONLY overrides margin-top ... other margins are same as declared above */
   margin-top: 50px;
+  padding: 15px;
+  background:#f6f6f6;
 }
  
 .quizOption {
@@ -53,9 +47,14 @@ body {
 .hide {
   display: none;
 }
+
+#quizBtn {
+  width: 45%;
+  }
+
 #quizBtn, #takeAgain {
   color:white;
-  background-color: #233688;
+  background-color: #f44336;
   border: #233688
 }
 #quizBtn:hover, #takeAgain:hover {
