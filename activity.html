@@ -5,62 +5,58 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>Document</title>
+ <title>Activity Personality Quiz</title>
  
  <link rel="stylesheet" type="text/css" href="art.css" />
- <link rel="shortcut icon" href="images/Hedwig.jpg" type="image/jpg">
+ <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
  
-<body class="background" background="images/Background.jpg">
+<body>
  
  <div id="quizContainer">
  
-   <h1>Which <em>Sport acitvity</em> is best for you?</h1>
+   <h1><center>Which <em>Sport acitvity</em> is best for you?</h1></center>
  
-   <button id="takeAgain" style="display: none; float: right;" onclick="window.location.reload()">Take Again</button>
+   <button id="takeAgain" class="w3-button  w3-padding-large w3-large w3-margin-top" style="display: none; float: right;" onclick="window.location.reload()">Take Again</button>
   <form>
- <input type="button" value="Return to home page" onclick="history.back()">
+ <input type="button" id="quizBtn" class="w3-button w3-padding-large w3-large w3-margin-top" value="Return to home page" onclick="history.back()">
 </form>
  
    <div id="quizZone">
  
-     <p>Click <strong>Start Quiz</strong> to find out!</p>
- 
-     <button id="quizBtn" onclick="startQuiz()">Start Quiz</button>
+     <h4>Click <strong>Start Quiz</strong> to find out!</h4>
+     
+     <br>
+     
+     <center><img src="activity.jpg" alt="activity" class="center" width="75%"></center>
+    <br>
+     <button class="w3-button  w3-padding-large w3-large w3-margin-top" id="quizBtn" onclick="startQuiz()">Start Quiz</button>
  
    </div>
  
-   <!-- Comments in HTML look like this -->
-   <div>
- 
-     <!--
-               HTML comments can span multiple lines.
-               The <div> around this section^^ isn't necessary.
-               Feel free to delete it!
-               Don't forget to delete the closing tag!
- 
-               The results below are hidden by CSS when the page loads.
-               When the quiz is finished, JavaScript will make the correct result visible.
-           -->
+   
      <div id="answer-Team" class="answer Team hide">
        <h4>You should join a team sport</h4>
-       <p>
+       <h4>
          Sports such as volleyball, basketball, and football would be a good fit for you!   
-       </p>
+       </h4>
      </div>
  
      <div id="answer-Run" class="answer Run hide">
        <h4>You should join a running sport!</h4>
-       <p>
+       <h4>
              Activities such as cross-country and Track and field would be a good fit for you!
-                </p>
+                </h4>
      </div>
  
      <div id="answer-Personal" class="answer Personal hide">
        <h4>You want to focus more on personal fitness!</h4>
-       <p>
+       <h4>
          Activities such as circuit training or gym sessions would be a good fit for you!
-               </p>
+               </h4>
      </div>
    </div>
  
