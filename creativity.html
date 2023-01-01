@@ -1,42 +1,48 @@
+
 <!DOCTYPE html>
 <html lang="en">
- 
+
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <meta http-equiv="X-UA-Compatible" content="ie=edge">
- <title>Document</title>
- 
- <link rel="stylesheet" type="text/css" href="art.css" />
- <link rel="shortcut icon" href="images/Hedwig.jpg" type="image/jpg">
- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="art.css" />
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
- 
+
 <body class="background" background="images/Background.jpg">
- 
- <div id="quizContainer">
- 
-   <h1 class="w3-margin w3-jumbo"><center>Which <strong>Art activity</strong> is best for you?</h1>
-   <button id="takeAgain" class="w3-button w3-black w3-padding-large w3-large w3-margin-top" style="display: none;float: right;" onclick="window.location.reload()">Take Again</button>
-    <form>
-        <input type="button" id="quizBtn" class="w3-button w3-black w3-padding-large w3-large w3-margin-top" value="Return to home page" onclick="history.back()">
+
+	<div id="quizContainer">
+
+		<h1 >
+			<center>Which <strong>Art activity</strong> is best for you?
+		</h1>
+	<img src="art_activity.jpg" alt="art activity" class="center">
+		<button id="takeAgain" class="w3-button  w3-padding-large w3-large w3-margin-top" style="display: none; float: right;" onclick="window.location.reload()">Take Again</button>
+		<form>
+			<input type="button" id="quizBtn" class="w3-button w3-padding-large w3-large w3-margin-top" value="Return to home page" onclick="history.back()">
      </form>
-  
-   <div id="quizZone">
- 
-     <p><center>Click <strong>Start Quiz</strong> to find out!</p>
- 
-     <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top" id="quizBtn" onclick="startQuiz()">Start Quiz</button>
- 
-   </div>
- 
-   <!-- Comments in HTML look like this -->
-   <div>
- 
-     <!--
+     <br>
+
+			<div id="quizZone">
+
+				<h4>
+					Click <strong>Start Quiz</strong> to find out!
+				</h4>
+
+				<button class="w3-button  w3-padding-large w3-large w3-margin-top" id="quizBtn" onclick="startQuiz()">Start Quiz</button>
+
+			</div>
+
+			<!-- Comments in HTML look like this -->
+			<div>
+
+				<!--
               HTML comments can span multiple lines.
               The <div> around this section^^ isn't necessary.
               Feel free to delete it!
@@ -44,32 +50,32 @@
               The results below are hidden by CSS when the page loads.
               When the quiz is finished, JavaScript will make the correct result visible.
           -->
-     <div id="answer-Visual" class="answer Visual hide">
-       <h4 class="w3-xlarge">You should do visual arts!</h4>
-       <p class="w3-xlarge">
-         Clubs such as ISS makeover are focused on visual art such as painting and drawing!
-       </p>
-     </div>
- 
-     <div id="answer-Tech" class="answer Tech hide">
-       <h4 class="w3-xlarge">You should join a technology based activity!</h4>
-       <p class="w3-xlarge">
-         Activities like Media crew would be a good fit for you!
-       </p>
-     </div>
- 
-     <div id="answer-Music" class="answer Music hide">
-       <h4 class="w3-xlarge">You are interested in music and drama!</h4>
-       <p class="w3-xlarge">
-         You should join the high school musical, band and choir, and other music focused activities!
-       </p>
-     </div>
-       <button id="takeAgain" style="display: none;" class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="window.location.reload()"><center>Take Again</center></button>
-   </div>
- 
- </div>
- 
- <script src="creativityscript.js"></script>
+				<div id="answer-Visual" class="answer Visual hide">
+					<h4 class="w3-xlarge">You should do visual arts!</h4>
+					<h4>
+						Clubs such as <a href="Club.html">ISS makeover</a> are focused on visual art such as painting and drawing!
+					</h4>
+				</div>
+
+				<div id="answer-Tech" class="answer Tech hide">
+					<h4 class="w3-xlarge">You should join a technology based activity!</h4>
+					<h4>
+						Activities like <a href="Club.html">Media Crew</a> would be a good fit for you!
+					</h4>
+				</div>
+
+				<div id="answer-Music" class="answer Music hide">
+					<h4 class="w3-xlarge">You are interested in music and drama!</h4>
+					<h4 class="w3-xlarge">
+						You should join the <a href="Club.html">High school musical</a>, <a href="Club.html">Band and Choir</a>, and other music focused activities!
+					</h4>
+				</div>
+				<button id="takeAgain" style="display: none;" class="w3-button w3-black w3-padding-large w3-large w3-margin-top" onclick="window.location.reload()"><center>Take Again</center></button>
+			</div>
+
+	</div>
+
+	<script src="creativityscript.js"></script>
 </body>
- 
+
 </html>
