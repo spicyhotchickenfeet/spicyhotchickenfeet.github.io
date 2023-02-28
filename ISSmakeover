@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> ISS Makeover </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+
+
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>ISS make-over </h1>
+      <h5 class="w3-padding-32">Students choose areas of the school that they would like to make more interesting / beautiful. Projects are usually done in small groups. We generate ideas and do research / sketching in order to play with the idea to understand how and if it will work for the intended space. This idea is then carried out.  </h5>
+
+      <p class="w3-text-grey"> Grades: 9,10,11,12 <br> Time: After school depending on when the students are available 
+ Location: HS art room <br> Supervisor: jsvihus@isstavanger.no  </p>
+      <form>
+ <input type="button" value="Return to home page" onclick="history.back()" class="w3-button w3-black w3-margin-top" >
+</form>
+    
+    </div>
+
+    <div class="w3-third w3-center">
+    <img src="Makeover.png" alt="Insert Image" width="200">
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+ <p>Made by Tanisha Doshi</p>
+</footer>
+
+
+</body>
+</html>
